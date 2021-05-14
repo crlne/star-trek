@@ -1,8 +1,12 @@
+import React from 'react';
+import NavShip from '../components/NavShip';
 import styles from './home.module.scss';
 
 export default function Home() {
   return (
    <>
+    <NavShip />
+    
     <h1 className={styles.title}>USS DISCOVERY</h1>
 
     <p className={styles.subtitle}>
