@@ -1,6 +1,4 @@
 .nav {
-    font-size: 1 rem;
-
     margin-left: 30%;
     text-align: center;
     align-items: space-between;
@@ -9,7 +7,18 @@
 }
 
 .title {
+    font-size: 1.5rem;
+    font-weight: 600;
     display: inline;
     padding: 16px;
     width: 5px;
+
+    transition: color 0.2s;
+
 }
+
+.title:hover {
+    filter: brightness(0.6);
+}
+
+
